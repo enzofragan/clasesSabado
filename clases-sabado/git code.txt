@@ -1,0 +1,14 @@
+git clone repo
+
+//cd el directorio del repo ej:
+cd como se llame el repo
+
+	git status
+	// si hay rojo 
+	git add .
+
+	git commit -m "mensaje del commit, por que se guardo y que se logro"
+	....
+
+	git push origin master -f
+
