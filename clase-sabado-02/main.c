@@ -20,7 +20,7 @@ int main()
     int cont=0;
     FILE* f;
 
-   /* f=fopen("miArchivo.dat","wb");
+    f=fopen("miArchivo.dat","wb");
 
     for(i=0;i<4;i++)///para guardar los que tiene estado 1
     {
@@ -42,7 +42,7 @@ int main()
     }
 
     fclose(f);
-*/
+
 
    f=fopen("miArchivo.dat","rb");
 
